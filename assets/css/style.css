@@ -50,7 +50,7 @@ p {
     font-size: 16px;
 }
 
-#mainBackground {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -75,7 +75,7 @@ p {
     margin-left: 20px;
 }
 
-.benefitsContainer {
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,7 +86,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefits {
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
