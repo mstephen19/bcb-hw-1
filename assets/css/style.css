@@ -53,7 +53,7 @@ a {
 /*Navbar options on hover*/
 #navSelect:hover {
     color: black;
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
 }
 
 p {
@@ -61,12 +61,13 @@ p {
 }
 
 #background-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
     height: 800px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
 }
 
 /*Wide blocks section*/
