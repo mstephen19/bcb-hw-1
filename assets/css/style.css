@@ -50,7 +50,7 @@ a {
     text-decoration: none;
 }
 
-/*Navbar options on hover*/
+/*Navbar options hover animation*/
 #navSelect:hover {
     color: black;
     transition: all 0.2s linear;
@@ -86,6 +86,7 @@ section {
     color: #ffffff;
 }
 
+/*Images in wide blocks*/
 .wide-block img {
     max-height: 200px;
     border-radius: 5px;
@@ -125,6 +126,7 @@ aside {
     color: #ffffff;
 }
 
+/*Images in benefits box*/
 .benefits-box img {
     display: block;
     margin: 10px auto;
@@ -132,6 +134,7 @@ aside {
     transition: all 0.3s linear;
 }
 
+/*Image hover animation*/
 .benefits-box img:hover {
     transform: scale(1.2);
 }
@@ -141,6 +144,7 @@ h3 {
     text-align: center;
 }
 
+/*Bottom of page*/
 footer {
     padding: 30px;
     clear: both;
